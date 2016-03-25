@@ -1,0 +1,15 @@
+﻿public class Class1
+{
+	public void BubbleSort()
+	{
+        for (i = 0; i < len - 1; i++)
+            for (j = i + 1; j < len; j++)
+                if (err[j] < err[i])
+                {
+                    ch = err[i];
+                    err[i] = err[j];
+                    err[j] = ch;
+                }
+
+    }
+}

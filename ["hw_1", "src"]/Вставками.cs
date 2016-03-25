@@ -1,0 +1,18 @@
+﻿public class Class1
+{
+	public void InsertionSort()
+	{
+        for(i = 1; i < len; i++)
+{
+            j = i - 1;
+            while ((j >= 0) && (err[j] > err[j + 1]))
+            {
+                swap = err[j];
+                err[j] = err[j + 1];
+                err[j + 1] = swap;
+                j--;
+            }
+        }
+
+    }
+}
